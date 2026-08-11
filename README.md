@@ -1,4 +1,4 @@
-# TIC Energy Solutions
+# THE ISAIA COMPANY 
 
 Crea un sitio web profesional, moderno, elegante y responsive para The Isaia Company, cuya marca abreviada es TIC.!!!
 
