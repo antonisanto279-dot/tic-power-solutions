@@ -1,7 +1,8 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowRight, Snowflake, Users, Zap } from "lucide-react";
-import heroImage from "@/assets/hero-electric.webp";
+import heroAsset from "@/assets/hero-electric.webp.asset.json";
 import acImage from "@/assets/ac-service.jpg";
+const heroImage = heroAsset.url;
 import { ServiceCards } from "@/components/service-cards";
 import { WhatsappButton } from "@/components/whatsapp-button";
 import { AC_SERVICES } from "@/lib/site";
