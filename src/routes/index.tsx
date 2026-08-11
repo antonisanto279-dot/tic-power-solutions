@@ -1,21 +1,14 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowRight, Snowflake, Users, Zap } from "lucide-react";
-import heroImage from "@/assets/hero-electric.webp";
+import heroAsset from "@/assets/hero-electric.webp.asset.json";
 import acImage from "@/assets/ac-service.jpg";
+const heroImage = heroAsset.url;
 import { ServiceCards } from "@/components/service-cards";
 import { WhatsappButton } from "@/components/whatsapp-button";
 import { AC_SERVICES } from "@/lib/site";
 
 export const Route = createFileRoute("/")({
   head: () => ({
-    links: [
-      {
-        rel: "preload",
-        as: "image",
-        href: heroImage,
-        fetchpriority: "high",
-      },
-    ],
     meta: [
       { title: "The Isaia Company — TIC.!!! | Servicios eléctricos" },
       {
@@ -43,6 +36,8 @@ function Index() {
           alt="Técnico de TIC.!!! trabajando en un panel eléctrico"
           width={1600}
           height={1104}
+          fetchPriority="high"
+          decoding="async"
           className="absolute inset-0 h-full w-full object-cover opacity-30"
         />
         <div className="absolute inset-0 bg-background/30" />
