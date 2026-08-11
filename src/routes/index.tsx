@@ -44,6 +44,8 @@ function Index() {
           alt="Técnico de TIC.!!! trabajando en un panel eléctrico"
           width={1600}
           height={1104}
+          fetchPriority="high"
+          decoding="async"
           className="absolute inset-0 h-full w-full object-cover opacity-30"
         />
         <div className="absolute inset-0 bg-background/30" />
