@@ -8,6 +8,14 @@ import { AC_SERVICES } from "@/lib/site";
 
 export const Route = createFileRoute("/")({
   head: () => ({
+    links: [
+      {
+        rel: "preload",
+        as: "image",
+        href: heroImage,
+        fetchpriority: "high",
+      },
+    ],
     meta: [
       { title: "The Isaia Company — TIC.!!! | Servicios eléctricos" },
       {
