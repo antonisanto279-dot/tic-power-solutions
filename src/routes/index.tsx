@@ -43,9 +43,9 @@ function Index() {
           alt="Técnico de TIC.!!! trabajando en un panel eléctrico"
           width={1600}
           height={1104}
-          className="absolute inset-0 h-full w-full object-cover opacity-15"
+          className="absolute inset-0 h-full w-full object-cover opacity-30"
         />
-        <div className="absolute inset-0 bg-background/40" />
+        <div className="absolute inset-0 bg-background/30" />
         <div className="absolute inset-0 circuit-grid opacity-70" />
         <div className="relative mx-auto max-w-6xl px-4 py-20 lg:px-8 lg:py-28">
           <span className="inline-flex items-center gap-2 rounded-full border border-primary/40 bg-primary/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.16em] text-primary">
