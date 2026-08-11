@@ -57,8 +57,8 @@ export function SiteHeader() {
           onClick={() => setOpen((v) => !v)}
           className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg border border-border text-foreground lg:hidden"
         >
-          {open ? <Menu className="hidden" /> : null}
           {open ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
+
         </button>
       </div>
 
